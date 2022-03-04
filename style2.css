@@ -31,7 +31,17 @@ font-style: italic;}
 .texto{
     padding: 20px;
     
-}
+}.botao {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    background: #649cce;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-block;
+  }
 
 @media screen and (max-width: 600px) {
     .img{
