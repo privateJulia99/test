@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-family: Varela Round;
+  background: #649cce;
+}
+
+.corpo {
+  margin-top: 30px;
+  display: flex;
+
+  max-width: fit-content;
+  margin: auto;
+  place-items: center;
+  gap: 50px;
+}
+.foto {
+  margin-top: 30px;
+
+  text-align: center;
+}
+.img {
+  max-height: 500px;
+}
+.form {
+  background-color: aliceblue;
+  border: 2px black;
+  border-style: dashed;
+  border-radius: 10px;
+  max-width: fit-content;
+  text-align: center;
+
+  padding: 25px;
+  margin-top: 30px;
+}
+.title {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+#resposta {
+  margin: 10px auto;
+  border: 1px solid #649cce;
+  padding: 5px;
+  border-radius: 5px;
+}
+#lemb {
+  margin: 10px auto;
+  border-color: #649cce;
+}
+.etiqueta {
+  padding-left: 5px;
+}
+.botoes {
+  text-align: center;
+}
+.botao {
+  text-transform: none;
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  background: #649cce;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .corpo {
+    flex-wrap: wrap;
+  }
+  .img {
+    max-width: 20%;
+  }
+  .form {
+    margin: auto;
+  }
+}
